@@ -17,9 +17,3 @@ You can create a debug configuration by going to `Debug > Add Configuration... >
 Add a breakpoint, and click on "Listen for XDebug" in the top left hand corner. Load your page, and you should get debugging information:
 
 ![](https://i.imgur.com/B8dnAj7.png)
-
-And then magic happens:
-
-![](https://i.imgur.com/yUnpilx.png)
-
-Enjoy 👋
