@@ -22,4 +22,4 @@ Add a breakpoint, and click on "Listen for XDebug" in the top left hand corner. 
 
 ![](https://i.imgur.com/B8dnAj7.png)
 
-Credits to [Sajjad Ashraf]([link to GitHub profile](https://github.com/sajjad26))
+Credits to [Sajjad Ashraf](https://github.com/sajjad26)
