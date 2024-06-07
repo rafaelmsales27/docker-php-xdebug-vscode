@@ -8,7 +8,7 @@ The Xdebug config happens in the `Dockerfile`. I recommend to look at it, escpei
 
  A sample `docker-compose.yml` comes along with it so you can get this up and running in one command:
  
-`docker-compose -p <desired-name> up -d`.
+``docker-compose -p <desired-name> up -d``.
 
 ## VS Code configuration
 
