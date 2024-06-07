@@ -16,7 +16,7 @@ You should modified these files to your need and I do not advice using these sam
 
 Install the [felixfbecker.php-debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug) extension.
 
-You can create a debug configuration by going to `Debug > Add Configuration... > PHP`, but I've included the `.vscode/launch.json` file in the repo, with the correct folder maping.
+You can create a debug configuration by going to `Debug > Add Configuration... > PHP`, but configuration file is included in  `.vscode/launch.json` file in the repo, with the correct folder maping.
 
 Add a breakpoint, and click on "Listen for XDebug" in the top left hand corner. Load your page, and you should get debugging information:
 
