@@ -4,9 +4,11 @@ Thi is an example intial repo for debuging PHP with Xdebug inside Docker. Using 
 
 ## Usage
 
-The Xdebug config happens in the `Dockerfile`. I recommend to look at it, escpeially the comments. The most important part is the `xdebug.remote_host` which has to be set to the Docker host.
+The Nginx, Dockerfile, docker-compose.yml and xbebug.ini are a start point for developing php web applications locally. 
 
- A sample `docker-compose.yml` comes along with it so you can get this up and running in one command:
+You should modified these files to your need and I do not advice using these sample files into production.
+
+ To run everything you must run the following command (positioned in the same folder as yout docker-compose.yml file):
  
 ``docker-compose -p <desired-name> up -d``.
 
@@ -19,3 +21,5 @@ You can create a debug configuration by going to `Debug > Add Configuration... >
 Add a breakpoint, and click on "Listen for XDebug" in the top left hand corner. Load your page, and you should get debugging information:
 
 ![](https://i.imgur.com/B8dnAj7.png)
+
+Credits to [Sajjad Ashraf]([link to GitHub profile](https://github.com/sajjad26))
