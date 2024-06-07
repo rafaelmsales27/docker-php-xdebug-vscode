@@ -6,7 +6,8 @@ Debug PHP with Xdebug inside Docker. Tested with VS Code.
 
 The Xdebug config happens in the `Dockerfile`. I recommend to look at it, escpeially the comments. The most important part is the `xdebug.remote_host` which has to be set to the Docker host.
 
- A sample `docker-compose.yml` comes along with it so you can get this up and running in one command: `docker-compose up --build -d`.
+ A sample `docker-compose.yml` comes along with it so you can get this up and running in one command: 
+`docker-compose -p <desired-name> up -d`.
 
 ## VS Code configuration
 
