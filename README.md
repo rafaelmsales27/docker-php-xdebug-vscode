@@ -1,6 +1,6 @@
 # PHP/Xdebug/Docker example
 
-Debug PHP with Xdebug inside Docker. Tested with VS Code.
+Thi is an example intial repo for debuging PHP with Xdebug inside Docker. Using VS Code.
 
 ## Usage
 
